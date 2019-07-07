@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Facebook Test Started 12]]>
+    </line>
+    <line>
+      <![CDATA[Facebook Test Started 13]]>
+    </line>
+    <line>
+      <![CDATA[Facebook Test Ended 12]]>
+    </line>
+    <line>
+      <![CDATA[Gmail Test Started 12]]>
+    </line>
+    <line>
+      <![CDATA[Facebook Test Ended 13]]>
+    </line>
+    <line>
+      <![CDATA[Gmail Test Ended 12]]>
+    </line>
+    <line>
+      <![CDATA[Instagram Test Started 12]]>
+    </line>
+    <line>
+      <![CDATA[Instagram Test Ended 12]]>
+    </line>
+    <line>
+      <![CDATA[Myntra Test Started 12]]>
+    </line>
+    <line>
+      <![CDATA[Gmail Test Started 13]]>
+    </line>
+    <line>
+      <![CDATA[Myntra Test Ended 12]]>
+    </line>
+    <line>
+      <![CDATA[Gmail Test Ended 13]]>
+    </line>
+    <line>
+      <![CDATA[ThoughtWorks Test Started 12]]>
+    </line>
+    <line>
+      <![CDATA[ThoughtWorks Test Ended 12]]>
+    </line>
+    <line>
+      <![CDATA[Instagram Test Started 13]]>
+    </line>
+    <line>
+      <![CDATA[Instagram Test Ended 13]]>
+    </line>
+    <line>
+      <![CDATA[Myntra Test Started 13]]>
+    </line>
+    <line>
+      <![CDATA[Myntra Test Ended 13]]>
+    </line>
+    <line>
+      <![CDATA[ThoughtWorks Test Started 13]]>
+    </line>
+    <line>
+      <![CDATA[ThoughtWorks Test Ended 13]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="147502" started-at="2019-06-18T06:09:42Z" finished-at="2019-06-18T06:12:09Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="69110" started-at="2019-06-18T06:09:42Z" finished-at="2019-06-18T06:10:51Z">
+      <class name="com.aman.projects.docker.FirstTest">
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="setupTest" is-config="true" duration-ms="6306" started-at="2019-06-18T11:39:42Z" finished-at="2019-06-18T11:39:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="FacebookTest()[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="FacebookTest" duration-ms="10206" started-at="2019-06-18T11:39:48Z" finished-at="2019-06-18T11:39:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook Test Started 12]]>
+            </line>
+            <line>
+              <![CDATA[Facebook Test Ended 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FacebookTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="tearDown" is-config="true" duration-ms="121" started-at="2019-06-18T11:39:58Z" finished-at="2019-06-18T11:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="setupTest" is-config="true" duration-ms="4956" started-at="2019-06-18T11:39:58Z" finished-at="2019-06-18T11:40:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="GmailTest()[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="GmailTest" duration-ms="6998" started-at="2019-06-18T11:40:03Z" finished-at="2019-06-18T11:40:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Gmail Test Started 12]]>
+            </line>
+            <line>
+              <![CDATA[Gmail Test Ended 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="tearDown" is-config="true" duration-ms="82" started-at="2019-06-18T11:40:10Z" finished-at="2019-06-18T11:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="setupTest" is-config="true" duration-ms="1572" started-at="2019-06-18T11:40:10Z" finished-at="2019-06-18T11:40:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="InstagramTest()[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="InstagramTest" duration-ms="6563" started-at="2019-06-18T11:40:12Z" finished-at="2019-06-18T11:40:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Instagram Test Started 12]]>
+            </line>
+            <line>
+              <![CDATA[Instagram Test Ended 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InstagramTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="tearDown" is-config="true" duration-ms="304" started-at="2019-06-18T11:40:19Z" finished-at="2019-06-18T11:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.aman.projects.docker.FirstTest@7dc7cbad]" name="terminate" is-config="true" duration-ms="0" started-at="2019-06-18T11:40:19Z" finished-at="2019-06-18T11:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.aman.projects.docker.FirstTest -->
+      <class name="com.aman.projects.docker.SecondTest">
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.SecondTest@1b604f19]" name="setupTest" is-config="true" duration-ms="904" started-at="2019-06-18T11:40:19Z" finished-at="2019-06-18T11:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="MyntraTest()[pri:0, instance:com.aman.projects.docker.SecondTest@1b604f19]" name="MyntraTest" duration-ms="10922" started-at="2019-06-18T11:40:20Z" finished-at="2019-06-18T11:40:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Myntra Test Started 12]]>
+            </line>
+            <line>
+              <![CDATA[Myntra Test Ended 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MyntraTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.SecondTest@1b604f19]" name="tearDown" is-config="true" duration-ms="374" started-at="2019-06-18T11:40:31Z" finished-at="2019-06-18T11:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.SecondTest@1b604f19]" name="setupTest" is-config="true" duration-ms="9053" started-at="2019-06-18T11:40:31Z" finished-at="2019-06-18T11:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="ThoughtWorksTest()[pri:0, instance:com.aman.projects.docker.SecondTest@1b604f19]" name="ThoughtWorksTest" duration-ms="10632" started-at="2019-06-18T11:40:40Z" finished-at="2019-06-18T11:40:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ThoughtWorks Test Started 12]]>
+            </line>
+            <line>
+              <![CDATA[ThoughtWorks Test Ended 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ThoughtWorksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.SecondTest@1b604f19]" name="tearDown" is-config="true" duration-ms="68" started-at="2019-06-18T11:40:51Z" finished-at="2019-06-18T11:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.aman.projects.docker.SecondTest@1b604f19]" name="terminate" is-config="true" duration-ms="0" started-at="2019-06-18T11:40:51Z" finished-at="2019-06-18T11:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.aman.projects.docker.SecondTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="147502" started-at="2019-06-18T06:09:42Z" finished-at="2019-06-18T06:12:09Z">
+      <class name="com.aman.projects.docker.SecondTest">
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.SecondTest@5b275dab]" name="setupTest" is-config="true" duration-ms="6636" started-at="2019-06-18T11:41:14Z" finished-at="2019-06-18T11:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="MyntraTest()[pri:0, instance:com.aman.projects.docker.SecondTest@5b275dab]" name="MyntraTest" duration-ms="7586" started-at="2019-06-18T11:41:20Z" finished-at="2019-06-18T11:41:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Myntra Test Started 13]]>
+            </line>
+            <line>
+              <![CDATA[Myntra Test Ended 13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MyntraTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.SecondTest@5b275dab]" name="tearDown" is-config="true" duration-ms="6364" started-at="2019-06-18T11:41:28Z" finished-at="2019-06-18T11:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.SecondTest@5b275dab]" name="setupTest" is-config="true" duration-ms="7856" started-at="2019-06-18T11:41:34Z" finished-at="2019-06-18T11:41:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="ThoughtWorksTest()[pri:0, instance:com.aman.projects.docker.SecondTest@5b275dab]" name="ThoughtWorksTest" duration-ms="23308" started-at="2019-06-18T11:41:42Z" finished-at="2019-06-18T11:42:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ThoughtWorks Test Started 13]]>
+            </line>
+            <line>
+              <![CDATA[ThoughtWorks Test Ended 13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ThoughtWorksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.SecondTest@5b275dab]" name="tearDown" is-config="true" duration-ms="3716" started-at="2019-06-18T11:42:06Z" finished-at="2019-06-18T11:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.aman.projects.docker.SecondTest@5b275dab]" name="terminate" is-config="true" duration-ms="0" started-at="2019-06-18T11:42:09Z" finished-at="2019-06-18T11:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.aman.projects.docker.SecondTest -->
+      <class name="com.aman.projects.docker.FirstTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="setupSuite" is-config="true" duration-ms="42873" started-at="2019-06-18T11:38:59Z" finished-at="2019-06-18T11:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="setupTest" is-config="true" duration-ms="15838" started-at="2019-06-18T11:39:42Z" finished-at="2019-06-18T11:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="FacebookTest()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="FacebookTest" duration-ms="11715" started-at="2019-06-18T11:39:58Z" finished-at="2019-06-18T11:40:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook Test Started 13]]>
+            </line>
+            <line>
+              <![CDATA[Facebook Test Ended 13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FacebookTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="tearDown" is-config="true" duration-ms="7068" started-at="2019-06-18T11:40:09Z" finished-at="2019-06-18T11:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="setupTest" is-config="true" duration-ms="11565" started-at="2019-06-18T11:40:16Z" finished-at="2019-06-18T11:40:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="GmailTest()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="GmailTest" duration-ms="11240" started-at="2019-06-18T11:40:28Z" finished-at="2019-06-18T11:40:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Gmail Test Started 13]]>
+            </line>
+            <line>
+              <![CDATA[Gmail Test Ended 13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="tearDown" is-config="true" duration-ms="6674" started-at="2019-06-18T11:40:39Z" finished-at="2019-06-18T11:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="setupTest" is-config="true" duration-ms="12444" started-at="2019-06-18T11:40:46Z" finished-at="2019-06-18T11:40:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="InstagramTest()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="InstagramTest" duration-ms="9053" started-at="2019-06-18T11:40:58Z" finished-at="2019-06-18T11:41:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Instagram Test Started 13]]>
+            </line>
+            <line>
+              <![CDATA[Instagram Test Ended 13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InstagramTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="tearDown" is-config="true" duration-ms="6396" started-at="2019-06-18T11:41:07Z" finished-at="2019-06-18T11:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="terminate" is-config="true" duration-ms="0" started-at="2019-06-18T11:41:14Z" finished-at="2019-06-18T11:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="teardownSuite()[pri:0, instance:com.aman.projects.docker.FirstTest@523884b2]" name="teardownSuite" is-config="true" duration-ms="17342" started-at="2019-06-18T11:42:09Z" finished-at="2019-06-18T11:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownSuite -->
+      </class> <!-- com.aman.projects.docker.FirstTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
